@@ -7,7 +7,7 @@ namespace DataSpoof
 	const DWORD pJump = 0x517E234;
 	const DWORD pFlag = 0x104;
 	const DWORD pVelocity = 0x114;
-	/// ќпредел€ютс€ с помощью дампера или задаютс€ вручную
+	/// Add from dumpers
 
 	DWORD clientDll;
 
