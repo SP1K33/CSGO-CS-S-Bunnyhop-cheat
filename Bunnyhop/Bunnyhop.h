@@ -1,7 +1,5 @@
 #pragma once
-#include <iostream>
 #include "DataSpoof.h"
-using std::cout;
 using namespace DataSpoof;
 
 constexpr int FL_ONGROUND = (1 << 0);
