@@ -22,9 +22,9 @@ int main()
 	cout << "Done!" << endl;
 	cout << "Press INSERT to switch hack" << endl;
 	cout << "Press HOME exit hack" << endl;
-	bool state = true;
 	while (!GetAsyncKeyState(VK_HOME))
 	{
+		static bool state = true;
 		if (GetAsyncKeyState(VK_INSERT))
 		{
 			state = !state;
