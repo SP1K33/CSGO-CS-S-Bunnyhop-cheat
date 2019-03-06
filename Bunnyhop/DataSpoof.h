@@ -6,7 +6,7 @@ namespace DataSpoof
 	const DWORD pLocalPlayer = 0xCCA6B4;
 	const DWORD pJump = 0x517E234;
 	const DWORD pFlag = 0x104;
-	/// Add from dumpers
+	/// Added from dumpers
 
 	DWORD clientDll;
 
