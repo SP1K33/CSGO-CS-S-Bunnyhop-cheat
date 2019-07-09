@@ -8,6 +8,8 @@ const int STAY = 4;
 
 void JumpQueue()
 {
-	if (GetAsyncKeyState(VK_SPACE))
-		(currentFlag & FL_ONGROUND) ? setJump(JUMP) : setJump(STAY);
+	if (GetAsyncKeyState(VK_SPACE)) 
+	{
+		setJump((currentFlag & FL_ONGROUND) ? JUMP : STAY);
+	}
 }
